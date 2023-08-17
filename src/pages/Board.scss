@@ -1,0 +1,25 @@
+.board {
+  display: flex;
+  gap: 16px;
+  margin: 20px;
+
+  .lists {
+    display: flex;
+    gap: 16px;
+    min-height: calc(100vh - 40px);
+  }
+
+  .new-list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    width: 150px;
+    background-color: rgb(244 247 253 / 50%);
+    border-radius: 30px;
+    padding: 20px;
+    border: 3px dashed #635fc7;
+    width: 350px;
+    border-spacing: 20px;
+  }
+}

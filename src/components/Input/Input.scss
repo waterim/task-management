@@ -1,0 +1,26 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  input {
+    border-radius: 8px;
+    padding: 10px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    outline: none;
+  }
+  .input.error {
+    border: 2px solid #b72b2b;
+  }
+  label {
+    align-self: flex-start;
+  }
+  .helperText {
+    font-size: 15px;
+    text-align: start;
+    color: #b72b2b;
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+}

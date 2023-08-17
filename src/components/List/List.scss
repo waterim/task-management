@@ -1,0 +1,59 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  background-color: rgb(244 247 253);
+  padding: 20px;
+  border-radius: 10px;
+  height: calc(100% - 40px);
+
+  .list-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    cursor: pointer;
+    background-color: #f7f9fc;
+    border-radius: 10px;
+    margin: 0 0 30px 0;
+    .list-title {
+      color: black;
+      margin: 0;
+      font-weight: 800;
+      font-size: 24px;
+      white-space: nowrap;
+      width: 100%;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: start;
+    }
+
+    .action-container {
+      display: flex;
+      .list-delete {
+        background: none;
+        border: none;
+        width: 50px;
+        color: black;
+        cursor: pointer;
+      }
+
+      .list-add {
+        background: none;
+        border: none;
+        width: 50px;
+        color: rgb(99 95 199);
+        cursor: pointer;
+      }
+    }
+  }
+
+  .list-tasks-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.draggable {
+  opacity: 0.4;
+}
